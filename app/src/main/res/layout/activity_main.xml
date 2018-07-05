@@ -67,7 +67,7 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="@android:color/holo_green_light"
-            android:onClick="SetButtonOnClick" />
+            android:onClick="SetButtonClick5" />
 
         <Button
             android:id="@+id/button6"
@@ -75,7 +75,7 @@
             android:layout_height="120dp"
             android:layout_weight="1"
             android:background="@android:color/holo_green_light"
-            android:onClick="SetButtonOnClick" />
+            android:onClick="SetButtonClick6" />
     </LinearLayout>
 
     <LinearLayout
@@ -91,7 +91,7 @@
             android:layout_height="120dp"
             android:layout_weight="1"
             android:background="@android:color/holo_green_light"
-            android:onClick="SetButtonOnClick" />
+            android:onClick="SetButtonClick7" />
 
         <Button
             android:id="@+id/button8"
@@ -101,7 +101,7 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="@android:color/holo_green_light"
-            android:onClick="SetButtonOnClick" />
+            android:onClick="SetButtonClick8" />
 
         <Button
             android:id="@+id/button9"
@@ -109,7 +109,7 @@
             android:layout_height="120dp"
             android:layout_weight="1"
             android:background="@android:color/holo_green_light"
-            android:onClick="SetButtonOnClick" />
+            android:onClick="SetButtonClick9" />
     </LinearLayout>
 
     <LinearLayout
