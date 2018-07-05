@@ -71,24 +71,6 @@ public class MainActivity extends AppCompatActivity {
                 v9.setBackgroundColor(color);
 
 
-                ColorDrawable d1 = (ColorDrawable)v1.getBackground();
-                final int c1 = d1.getColor();
-                ColorDrawable d2 = (ColorDrawable)v2.getBackground();
-                final int c2 = d2.getColor();
-                ColorDrawable d3 = (ColorDrawable)v3.getBackground();
-                int c3 = d3.getColor();
-                ColorDrawable d4 = (ColorDrawable)v4.getBackground();
-                int c4 = d4.getColor();
-                ColorDrawable d5 = (ColorDrawable)v5.getBackground();
-                int c5 = d5.getColor();
-                ColorDrawable d6 = (ColorDrawable)v6.getBackground();
-                int c6 = d6.getColor();
-                ColorDrawable d7 = (ColorDrawable)v7.getBackground();
-                int c7 = d7.getColor();
-                ColorDrawable d8 = (ColorDrawable)v8.getBackground();
-                int c8 = d8.getColor();
-                ColorDrawable d9 = (ColorDrawable)v9.getBackground();
-                int c9 = d9.getColor();
 
 
             }
@@ -99,10 +81,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void check(){
-        int Y = Color.rgb(153,204,0);
         int X = -6697984;
 
-        Button b = (Button)findViewById(R.id.button_リセット);
         View v1 = findViewById(R.id.button1);
         View v2 = findViewById(R.id.button2);
         View v3 = findViewById(R.id.button3);
@@ -139,6 +119,142 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+
+    public void SetButtonClick1(View v){
+        int Y = Color.rgb(153,204,0);
+        int X = Color.rgb(0,0,255);
+        ColorDrawable d = (ColorDrawable)v.getBackground();
+        ColorDrawable d2 = (ColorDrawable)findViewById(R.id.button2).getBackground();
+        ColorDrawable d4 = (ColorDrawable)findViewById(R.id.button4).getBackground();
+
+        int color = d.getColor();
+        int color2 = d2.getColor();
+        int color4 = d4.getColor();
+
+        if (color != Y) {
+            v.setBackgroundColor(Y);
+        } else {
+            v.setBackgroundColor(X);
+        }
+        if (color2 != Y) {
+            findViewById(R.id.button2).setBackgroundColor(Y);
+        } else {
+            findViewById(R.id.button2).setBackgroundColor(X);
+        }
+        if (color4 != Y) {
+            findViewById(R.id.button4).setBackgroundColor(Y);
+        } else {
+            findViewById(R.id.button4).setBackgroundColor(X);
+        }
+
+        check();
+    }
+
+    public void SetButtonClick2(View v){
+        int Y = Color.rgb(153,204,0);
+        int X = Color.rgb(0,0,255);
+        ColorDrawable d = (ColorDrawable)v.getBackground();
+        ColorDrawable d1 = (ColorDrawable)findViewById(R.id.button1).getBackground();
+        ColorDrawable d3 = (ColorDrawable)findViewById(R.id.button3).getBackground();
+        ColorDrawable d5 = (ColorDrawable)findViewById(R.id.button5).getBackground();
+
+        int color = d.getColor();
+        int color1 = d1.getColor();
+        int color3 = d3.getColor();
+        int color5 = d5.getColor();
+
+        if (color != Y) {
+            v.setBackgroundColor(Y);
+        } else {
+            v.setBackgroundColor(X);
+        }
+        if (color1 != Y) {
+            findViewById(R.id.button1).setBackgroundColor(Y);
+        } else {
+            findViewById(R.id.button1).setBackgroundColor(X);
+        }
+        if (color3 != Y) {
+            findViewById(R.id.button3).setBackgroundColor(Y);
+        } else {
+            findViewById(R.id.button3).setBackgroundColor(X);
+        }
+        if (color5 != Y) {
+            findViewById(R.id.button5).setBackgroundColor(Y);
+        } else {
+            findViewById(R.id.button5).setBackgroundColor(X);
+        }
+
+        check();
+    }
+
+    public void SetButtonClick3(View v){
+        int Y = Color.rgb(153,204,0);
+        int X = Color.rgb(0,0,255);
+        ColorDrawable d = (ColorDrawable)v.getBackground();
+        ColorDrawable d2 = (ColorDrawable)findViewById(R.id.button2).getBackground();
+        ColorDrawable d6 = (ColorDrawable)findViewById(R.id.button6).getBackground();
+
+        int color = d.getColor();
+        int color2 = d2.getColor();
+        int color6 = d6.getColor();
+
+        if (color != Y) {
+            v.setBackgroundColor(Y);
+        } else {
+            v.setBackgroundColor(X);
+        }
+        if (color2 != Y) {
+            findViewById(R.id.button2).setBackgroundColor(Y);
+        } else {
+            findViewById(R.id.button2).setBackgroundColor(X);
+        }
+        if (color6 != Y) {
+            findViewById(R.id.button6).setBackgroundColor(Y);
+        } else {
+            findViewById(R.id.button6).setBackgroundColor(X);
+        }
+
+        check();
+    }
+
+    public void SetButtonClick4(View v){
+        int Y = Color.rgb(153,204,0);
+        int X = Color.rgb(0,0,255);
+        ColorDrawable d = (ColorDrawable)v.getBackground();
+        ColorDrawable d1 = (ColorDrawable)findViewById(R.id.button1).getBackground();
+        ColorDrawable d5 = (ColorDrawable)findViewById(R.id.button5).getBackground();
+        ColorDrawable d7 = (ColorDrawable)findViewById(R.id.button7).getBackground();
+
+        int color = d.getColor();
+        int color1 = d1.getColor();
+        int color5 = d5.getColor();
+        int color7 = d7.getColor();
+
+        if (color != Y) {
+            v.setBackgroundColor(Y);
+        } else {
+            v.setBackgroundColor(X);
+        }
+        if (color1 != Y) {
+            findViewById(R.id.button1).setBackgroundColor(Y);
+        } else {
+            findViewById(R.id.button1).setBackgroundColor(X);
+        }
+        if (color5 != Y) {
+            findViewById(R.id.button5).setBackgroundColor(Y);
+        } else {
+            findViewById(R.id.button5).setBackgroundColor(X);
+        }
+        if (color7 != Y) {
+            findViewById(R.id.button7).setBackgroundColor(Y);
+        } else {
+            findViewById(R.id.button7).setBackgroundColor(X);
+        }
+
+        check();
+    }
+
 
     public void SetButtonOnClick(View v){
         int Y = Color.rgb(153,204,0);
